@@ -6,7 +6,7 @@
   }
   body {
     height: 100vh;
-    background: linear-gradient(#000000 50%, #ffb92a 50%);
+    background: linear-gradient(#0d0909 50%, #78591a 50%);
   }
   .container {
     font-size: 16px;
@@ -109,7 +109,7 @@
     font-weight: 300;
     line-height: 1.8em;
     text-align: justify;
-    color: #a0a0a0;
+    color: #f5e0e0;
   }
   .msg {
     text-align: center;

@@ -58,7 +58,7 @@ let getMovie = () => {
 searchBtn.addEventListener("click", getMovie);
 document.addEventListener("keydown",function keyboardlistener(event){
   if(event.keyCode==13)
-     getMovie;
+     getMovie();
 }
 )
-window.addEventListener("load", getMovie);
+document.addEventListener("load", getMovie);
